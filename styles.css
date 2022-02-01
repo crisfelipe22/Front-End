@@ -1,0 +1,165 @@
+body{
+    background-color: #FAFAFA;
+
+}
+
+.navbar{
+    background-color: white;
+    height: 60px;
+}
+
+.card{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 25%;
+    margin: 10px auto;
+   
+}
+
+.card-img > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.icon{
+    color:white;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 100%;
+    transition-duration: 0.7s;
+}
+
+#heart{
+    background: url(img/heard.png);
+    height: 25px;
+	width: 29px;
+
+}
+
+#heart:hover{
+    background-image: url(img/heard_black.png);
+    height: 25px;
+    width: 29px;
+ }
+
+#comment{
+    background: url(img/comment.png);
+    height: 25px;
+	width: 25px;
+}
+
+#comment:hover{
+    background-image: url(img/comment_black.png);
+    height: 25px;
+	width: 25px;
+}
+
+#share{
+    background: url(img/share.png);
+    height: 25px;
+	width: 29px;
+}
+
+#share:hover{
+    background: url(img/share_black.png);
+    height: 25px;
+	width: 29px;
+}
+
+#save{
+	background-image: url(img/save.png);
+	height: 28px;
+	width: 25px;
+	margin-left: 150px;
+}
+
+
+#save:hover{
+	background-image: url(img/save_black.png);
+	height: 28px;
+	width: 25px;
+	margin-left: 150px;
+}
+
+#search{
+	background-image: url(img/search.png);
+	height: 40px;
+	width: 280px;
+	margin-left: 420px;
+}
+
+#home{
+	background-image: url(img/home.png);
+	height: 25px;
+	width: 30px;
+	margin-left: 300px;
+}
+
+#home:hover{
+	background-image: url(img/home_black.png);
+	height: 25px;
+	width: 30px;
+	margin-left: 1000px;
+}
+
+#message{
+	background-image: url(img/message.PNG);
+	height: 30px;
+	width: 33px;
+}
+
+#message:hover{
+	background-image: url(img/message_black.PNG);
+	height: 30px;
+	width: 33px;
+}
+
+#post{
+	background-image: url(img/post.PNG);
+	height: 30px;
+	width: 28px;
+}
+
+#state{
+	background-image: url(img/state.PNG);
+	height: 30px;
+	width: 28px;
+}
+
+#state:hover{
+	background-image: url(img/state_black.PNG);
+	height: 30px;
+	width: 28px;
+}
+
+#account{
+	background-image: url(img/account.PNG);
+	height: 30px;
+	width: 30px;
+}
+
+#points{
+	background-image: url(img/points.png);
+	height: 5px;
+	width: 18px;
+    margin: 20px 70px;
+
+}
+
+#account2{
+	background-image: url(img/account_2.PNG);
+	height: 45px;
+	width: 145px;
+}
+
+#account3{
+	background-image: url(img/account_3.PNG);
+	height: 45px;
+	width: 145px;
+}
+
+.card-content{
+    padding:10px 1em;
+}
+
